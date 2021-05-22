@@ -1,0 +1,69 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <style type="text/css">
+    <![CDATA[
+        @keyframes back-cloud {
+            0% {
+                -webkit-transform: translateX(-15%);
+                -moz-transform: translateX(-15%);
+                    -ms-transform: translateX(-15%);
+                        transform: translateX(-15%);
+                }
+            50% {
+                -webkit-transform: translateX(2%);
+                -moz-transform: translateX(2%);
+                    -ms-transform: translateX(2%);
+                        transform: translateX(2%);
+                }
+            100% {
+                -webkit-transform: translateX(-15%);
+                -moz-transform: translateX(-15%);
+                    -ms-transform: translateX(-15%);
+                        transform: translateX(-15%);
+                }                
+        }
+        #back-cloud {
+            transform-origin: center;
+            animation: back-cloud 5s infinite reverse;
+        }
+        @keyframes front-cloud {
+            0% {
+                -webkit-transform: translateX(-3%);
+                -moz-transform: translateX(-3%);
+                    -ms-transform: translateX(-3%);
+                        transform: translateX(-3%);
+                }
+            50% {
+                -webkit-transform: translateX(10%);
+                -moz-transform: translateX(10%);
+                    -ms-transform: translateX(10%);
+                        transform: translateX(10%);
+                }
+            100% {
+            -webkit-transform: translateX(-3%);
+            -moz-transform: translateX(-3%);
+                -ms-transform: translateX(-3%);
+                    transform: translateX(-3%);
+            }
+        }
+        #front-cloud {
+            animation: front-cloud 5s infinite;
+        }
+    ]]>
+    </style>
+
+    <g id="cloudy">
+        <g id="back-cloud">
+            <rect id="cloud-base" x="48.2308" y="37.9744" width="33.641" height="19.6923" fill="#C4C4C4"/>
+            <circle id="cloud-fluff-3" cx="81.8718" cy="44.5385" r="13.1282" fill="#C4C4C4"/>
+            <circle id="cloud-fluff-2" cx="68.7436" cy="28.1282" r="13.1282" fill="#C4C4C4"/>
+            <circle id="cloud-fluff-1" cx="48.2308" cy="40.4359" r="17.2308" fill="#C4C4C4"/>
+        </g>
+        <g id="front-cloud">
+            <rect id="cloud-base_2" x="26.1538" y="60.3077" width="45.2051" height="27.6923" fill="#DEDEDE"/>
+            <ellipse id="cloud-fluff-3_2" cx="71.359" cy="69.5385" rx="17.641" ry="18.4615" fill="#DEDEDE"/>
+            <ellipse id="cloud-fluff-2_2" cx="53.7179" cy="46.4615" rx="17.641" ry="18.4615" fill="#DEDEDE"/>
+            <ellipse id="cloud-fluff-1_2" cx="26.1538" cy="63.7692" rx="23.1538" ry="24.2308" fill="#DEDEDE"/>
+        </g>
+    </g>
+</svg>

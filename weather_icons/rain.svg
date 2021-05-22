@@ -1,0 +1,52 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="rain">
+        <g id="back-cloud">
+            <rect id="cloud-base" x="48.0385" y="29.0513" width="35.218" height="20.6154" fill="#848484"/>
+            <circle id="cloud-fluff-3" cx="83.2564" cy="35.9231" r="13.7436" fill="#848484"/>
+            <circle id="cloud-fluff-2" cx="69.5128" cy="18.7436" r="13.7436" fill="#848484"/>
+            <circle id="cloud-fluff-1" cx="48.0385" cy="31.6282" r="18.0385" fill="#848484"/>
+        </g>
+        <g id="front-cloud">
+            <rect id="cloud-base_2" x="22.9231" y="36.7996" width="38.8974" height="23.8283" fill="#AEAEAE"/>
+            <ellipse id="cloud-fluff-3_2" cx="61.8205" cy="44.7424" rx="15.1795" ry="15.8855" fill="#AEAEAE"/>
+            <ellipse id="cloud-fluff-2_2" cx="46.641" cy="24.8855" rx="15.1795" ry="15.8855" fill="#AEAEAE"/>
+            <ellipse id="cloud-fluff-1_2" cx="22.9231" cy="39.7782" rx="19.9231" ry="20.8497" fill="#AEAEAE"/>
+        </g>
+        <g id="rain-1">
+            <g id="teardrop_1">
+                <circle id="drop" cx="8" cy="70" r="4" fill="#32DAFF"/>
+                <path id="tear" d="M8 62L11.4641 68H4.5359L8 62Z" fill="#32DAFF"/>
+            </g>
+            <g id="teardrop_2">
+                <circle id="drop_2" cx="31" cy="70" r="4" fill="#32DAFF"/>
+                <path id="tear_2" d="M31 62L34.4641 68H27.5359L31 62Z" fill="#32DAFF"/>
+            </g>
+            <g id="teardrop_3">
+                <circle id="drop_3" cx="54" cy="70" r="4" fill="#32DAFF"/>
+                <path id="tear_3" d="M54 62L57.4641 68H50.5359L54 62Z" fill="#32DAFF"/>
+            </g>
+            <g id="teardrop_4">
+                <circle id="drop_4" cx="77" cy="70" r="4" fill="#32DAFF"/>
+                <path id="tear_4" d="M77 62L80.4641 68H73.5359L77 62Z" fill="#32DAFF"/>
+            </g>
+        </g>
+        <g id="rain-2">
+            <g id="teardrop_5">
+                <circle id="drop_5" cx="20" cy="78" r="4" fill="#77E7FF"/>
+                <path id="tear_5" d="M20 70L23.4641 76H16.5359L20 70Z" fill="#77E7FF"/>
+            </g>
+            <g id="teardrop_6">
+                <circle id="drop_6" cx="43" cy="78" r="4" fill="#77E7FF"/>
+                <path id="tear_6" d="M43 70L46.4641 76H39.5359L43 70Z" fill="#77E7FF"/>
+            </g>
+            <g id="teardrop_7">
+                <circle id="drop_7" cx="66" cy="78" r="4" fill="#77E7FF"/>
+                <path id="tear_7" d="M66 70L69.4641 76H62.5359L66 70Z" fill="#77E7FF"/>
+            </g>
+            <g id="teardrop_8">
+                <circle id="drop_8" cx="89" cy="78" r="4" fill="#77E7FF"/>
+                <path id="tear_8" d="M89 70L92.4641 76H85.5359L89 70Z" fill="#77E7FF"/>
+            </g>
+        </g>
+    </g>
+</svg>

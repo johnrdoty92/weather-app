@@ -1,0 +1,19 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1">
+<rect width="100" height="100" fill="white"/>
+<circle id="sun" cx="41.5" cy="35.5" r="17.5" fill="#FFC700"/>
+<circle id="rays" cx="41.5" cy="35.5" r="27" stroke="#FFC700" stroke-width="13" stroke-linejoin="round" stroke-dasharray="5 15"/>
+<g id="back-cloud">
+<rect id="cloud-base" x="62.4615" y="56.9487" width="26.2821" height="15.3846" fill="#DADADA"/>
+<circle id="cloud-fluff-3" cx="88.7436" cy="62.0769" r="10.2564" fill="#DADADA"/>
+<circle id="cloud-fluff-2" cx="78.4872" cy="49.2564" r="10.2564" fill="#DADADA"/>
+<circle id="cloud-fluff-1" cx="62.4615" cy="58.8718" r="13.4615" fill="#DADADA"/>
+</g>
+<g id="front-cloud">
+<rect id="cloud-base_2" x="19.7692" y="70.7943" width="34.6923" height="21.2522" fill="#EDEDED"/>
+<ellipse id="cloud-fluff-3_2" cx="54.4615" cy="77.8783" rx="13.5385" ry="14.1682" fill="#EDEDED"/>
+<ellipse id="cloud-fluff-2_2" cx="40.9231" cy="60.1682" rx="13.5385" ry="14.1682" fill="#EDEDED"/>
+<ellipse id="cloud-fluff-1_2" cx="19.7692" cy="73.4508" rx="17.7692" ry="18.5957" fill="#EDEDED"/>
+</g>
+</g>
+</svg>
