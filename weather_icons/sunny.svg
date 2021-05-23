@@ -1,23 +1,25 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css">
-    <![CDATA[
+        <![CDATA[
         @keyframes sunny-rays {
             from {
                 -webkit-transform: rotate(360deg);
                 -moz-transform: rotate(360deg);
-                    -ms-transform: rotate(360deg);
-                        transform: rotate(360deg);
-                }
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
         }
+
         #rays {
             transform-origin: center;
             animation: sunny-rays 10s infinite linear;
         }
-    ]]>
+        ]]>
     </style>
 
     <g id="Sunny">
-        <circle id="sun" cx="50" cy="50" r="25" fill="#FFC700"/>
-        <circle id="rays" cx="51" cy="50" r="41.5" stroke="#FFC700" stroke-width="13" stroke-linejoin="round" stroke-dasharray="5 15"/>
-</g>
+        <circle id="sun" cx="50" cy="50" r="25" fill="#FFC700" />
+        <circle id="rays" cx="51" cy="50" r="41.5" stroke="#FFC700" stroke-width="13" stroke-linejoin="round"
+            stroke-dasharray="5 15" />
+    </g>
 </svg>

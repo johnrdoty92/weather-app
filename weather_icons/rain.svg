@@ -1,4 +1,109 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <style type="text/css">
+        <![CDATA[
+            @keyframes back-cloud {
+                0% {
+                    -webkit-transform: translateX(-15%);
+                    -moz-transform: translateX(-15%);
+                        -ms-transform: translateX(-15%);
+                            transform: translateX(-15%);
+                    }
+                50% {
+                    -webkit-transform: translateX(2%);
+                    -moz-transform: translateX(2%);
+                        -ms-transform: translateX(2%);
+                            transform: translateX(2%);
+                    }
+                100% {
+                    -webkit-transform: translateX(-15%);
+                    -moz-transform: translateX(-15%);
+                        -ms-transform: translateX(-15%);
+                            transform: translateX(-15%);
+                    }                
+            }
+            #back-cloud {
+                transform-origin: center;
+                animation: back-cloud 5s infinite reverse;
+            }
+            @keyframes front-cloud {
+                0% {
+                    -webkit-transform: translateX(-3%);
+                    -moz-transform: translateX(-3%);
+                        -ms-transform: translateX(-3%);
+                            transform: translateX(-3%);
+                    }
+                50% {
+                    -webkit-transform: translateX(10%);
+                    -moz-transform: translateX(10%);
+                        -ms-transform: translateX(10%);
+                            transform: translateX(10%);
+                    }
+                100% {
+                -webkit-transform: translateX(-3%);
+                -moz-transform: translateX(-3%);
+                    -ms-transform: translateX(-3%);
+                        transform: translateX(-3%);
+                }
+            }
+            #front-cloud {
+                animation: front-cloud 5s infinite;
+            }
+
+            @keyframes rain-1 {
+                from {
+                    -webkit-transform: translateY(0%);
+                    -moz-transform: translateY(0%);
+                        -ms-transform: translateY(0%);
+                            transform: translateY(0%);
+                    }
+                to {
+                    -webkit-transform: translateY(20%);
+                    -moz-transform: translateY(20%);
+                        -ms-transform: translateY(20%);
+                            transform: translateY(20%);
+                    }
+                }
+
+            @keyframes rain-2 {
+                from {
+                    -webkit-transform: translateY(-10%);
+                    -moz-transform: translateY(-10%);
+                        -ms-transform: translateY(-10%);
+                            transform: translateY(-10%);
+                    }
+                to {
+                    -webkit-transform: translateY(10%);
+                    -moz-transform: translateY(10%);
+                        -ms-transform: translateY(10%);
+                            transform: translateY(10%);
+                    }
+                }
+            @keyframes fade-in-out {
+                0%, 100% {
+                    -webkit-opacity: 0;
+                    -moz-opacity: 0;
+                        -ms-opacity: 0;
+                            opacity: 0;
+                }
+                33%, 66% {
+                    -webkit-opacity: 1;
+                    -moz-opacity: 1;
+                        -ms-opacity: 1;
+                            opacity: 1;
+                }
+            }
+                #rain-1 {
+                    animation: rain-1 1s infinite, fade-in-out 1s infinite;
+                }
+
+                #rain-2 {
+                    opacity: 0;
+                    animation: rain-2 1s 0.5s infinite, fade-in-out 1s 0.5s infinite;
+                }
+        ]]>
+        </style>
+    
     <g id="rain">
         <g id="back-cloud">
             <rect id="cloud-base" x="48.0385" y="29.0513" width="35.218" height="20.6154" fill="#848484"/>

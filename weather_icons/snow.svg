@@ -1,69 +1,189 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="snow">
-<rect width="100" height="100" fill="white"/>
-<g id="back-cloud">
-<rect id="cloud-base" x="48.0385" y="28.0513" width="35.218" height="20.6154" fill="#848484"/>
-<circle id="cloud-fluff-3" cx="83.2564" cy="34.9231" r="13.7436" fill="#848484"/>
-<circle id="cloud-fluff-2" cx="69.5128" cy="17.7436" r="13.7436" fill="#848484"/>
-<circle id="cloud-fluff-1" cx="48.0385" cy="30.6282" r="18.0385" fill="#848484"/>
-</g>
-<g id="front-cloud">
-<rect id="cloud-base_2" x="22.9231" y="35.7996" width="38.8974" height="23.8283" fill="#AEAEAE"/>
-<ellipse id="cloud-fluff-3_2" cx="61.8205" cy="43.7424" rx="15.1795" ry="15.8855" fill="#AEAEAE"/>
-<ellipse id="cloud-fluff-2_2" cx="46.641" cy="23.8855" rx="15.1795" ry="15.8855" fill="#AEAEAE"/>
-<ellipse id="cloud-fluff-1_2" cx="22.9231" cy="38.7782" rx="19.9231" ry="20.8497" fill="#AEAEAE"/>
-</g>
-<g id="snow-flakes-2">
-<g id="snow-flake">
-<line id="flake-line" x1="12" y1="67.5" x2="21" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_2" x1="16.5" y1="72" x2="16.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_3" x1="13.4157" y1="64.2232" x2="19.5843" y2="70.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_4" x1="13.2232" y1="70.5843" x2="19.7768" y2="64.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_2">
-<line id="flake-line_5" x1="32" y1="67.5" x2="41" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_6" x1="36.5" y1="72" x2="36.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_7" x1="33.4157" y1="64.2232" x2="39.5843" y2="70.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_8" x1="33.2232" y1="70.5843" x2="39.7768" y2="64.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_3">
-<line id="flake-line_9" x1="52" y1="67.5" x2="61" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_10" x1="56.5" y1="72" x2="56.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_11" x1="53.4157" y1="64.2232" x2="59.5843" y2="70.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_12" x1="53.2232" y1="70.5843" x2="59.7768" y2="64.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_4">
-<line id="flake-line_13" x1="71" y1="67.5" x2="80" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_14" x1="75.5" y1="72" x2="75.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_15" x1="72.4157" y1="64.2232" x2="78.5843" y2="70.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_16" x1="72.2232" y1="70.5843" x2="78.7768" y2="64.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-</g>
-<g id="snow-flakes-1">
-<g id="snow-flake_5">
-<line id="flake-line_17" x1="21" y1="78.5" x2="30" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_18" x1="25.5" y1="83" x2="25.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_19" x1="22.4157" y1="75.2232" x2="28.5843" y2="81.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_20" x1="22.2232" y1="81.5843" x2="28.7768" y2="75.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_6">
-<line id="flake-line_21" x1="41" y1="78.5" x2="50" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_22" x1="45.5" y1="83" x2="45.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_23" x1="42.4157" y1="75.2232" x2="48.5843" y2="81.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_24" x1="42.2232" y1="81.5843" x2="48.7768" y2="75.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_7">
-<line id="flake-line_25" x1="61" y1="78.5" x2="70" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_26" x1="65.5" y1="83" x2="65.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_27" x1="62.4157" y1="75.2232" x2="68.5843" y2="81.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_28" x1="62.2232" y1="81.5843" x2="68.7768" y2="75.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-<g id="snow-flake_8">
-<line id="flake-line_29" x1="80" y1="78.5" x2="89" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_30" x1="84.5" y1="83" x2="84.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_31" x1="81.4157" y1="75.2232" x2="87.5843" y2="81.7768" stroke="#9DEDFF" stroke-linejoin="round"/>
-<line id="flake-line_32" x1="81.2232" y1="81.5843" x2="87.7768" y2="75.4157" stroke="#9DEDFF" stroke-linejoin="round"/>
-</g>
-</g>
-</g>
+    
+    <style type="text/css">
+        <![CDATA[
+            @keyframes back-cloud {
+                0% {
+                    -webkit-transform: translateX(-15%);
+                    -moz-transform: translateX(-15%);
+                        -ms-transform: translateX(-15%);
+                            transform: translateX(-15%);
+                    }
+                50% {
+                    -webkit-transform: translateX(2%);
+                    -moz-transform: translateX(2%);
+                        -ms-transform: translateX(2%);
+                            transform: translateX(2%);
+                    }
+                100% {
+                    -webkit-transform: translateX(-15%);
+                    -moz-transform: translateX(-15%);
+                        -ms-transform: translateX(-15%);
+                            transform: translateX(-15%);
+                    }                
+            }
+            #back-cloud {
+                transform-origin: center;
+                animation: back-cloud 5s infinite reverse;
+            }
+            @keyframes front-cloud {
+                0% {
+                    -webkit-transform: translateX(-3%);
+                    -moz-transform: translateX(-3%);
+                        -ms-transform: translateX(-3%);
+                            transform: translateX(-3%);
+                    }
+                50% {
+                    -webkit-transform: translateX(10%);
+                    -moz-transform: translateX(10%);
+                        -ms-transform: translateX(10%);
+                            transform: translateX(10%);
+                    }
+                100% {
+                -webkit-transform: translateX(-3%);
+                -moz-transform: translateX(-3%);
+                    -ms-transform: translateX(-3%);
+                        transform: translateX(-3%);
+                }
+            }
+            #front-cloud {
+                animation: front-cloud 5s infinite;
+            }
+
+            @keyframes rain-1 {
+                from {
+                    -webkit-transform: translateY(0%);
+                    -moz-transform: translateY(0%);
+                        -ms-transform: translateY(0%);
+                            transform: translateY(0%);
+                    }
+                to {
+                    -webkit-transform: translateY(20%);
+                    -moz-transform: translateY(20%);
+                        -ms-transform: translateY(20%);
+                            transform: translateY(20%);
+                    }
+                }
+
+            @keyframes rain-2 {
+                from {
+                    -webkit-transform: translateY(-10%);
+                    -moz-transform: translateY(-10%);
+                        -ms-transform: translateY(-10%);
+                            transform: translateY(-10%);
+                    }
+                to {
+                    -webkit-transform: translateY(10%);
+                    -moz-transform: translateY(10%);
+                        -ms-transform: translateY(10%);
+                            transform: translateY(10%);
+                    }
+                }
+            @keyframes fade-in-out {
+                0%, 100% {
+                    -webkit-opacity: 0;
+                    -moz-opacity: 0;
+                        -ms-opacity: 0;
+                            opacity: 0;
+                }
+                33%, 66% {
+                    -webkit-opacity: 1;
+                    -moz-opacity: 1;
+                        -ms-opacity: 1;
+                            opacity: 1;
+                }
+            }
+                #snow-flakes-2 {
+                    animation: rain-1 1s infinite, fade-in-out 1s infinite;
+                }
+
+                #snow-flakes-1 {
+                    opacity: 0;
+                    animation: rain-2 1s 0.5s infinite, fade-in-out 1s 0.5s infinite;
+                }
+        ]]>
+        </style>
+    
+    <g id="snow">
+        <g id="back-cloud">
+            <rect id="cloud-base" x="48.0385" y="28.0513" width="35.218" height="20.6154" fill="#848484" />
+            <circle id="cloud-fluff-3" cx="83.2564" cy="34.9231" r="13.7436" fill="#848484" />
+            <circle id="cloud-fluff-2" cx="69.5128" cy="17.7436" r="13.7436" fill="#848484" />
+            <circle id="cloud-fluff-1" cx="48.0385" cy="30.6282" r="18.0385" fill="#848484" />
+        </g>
+        <g id="front-cloud">
+            <rect id="cloud-base_2" x="22.9231" y="35.7996" width="38.8974" height="23.8283" fill="#AEAEAE" />
+            <ellipse id="cloud-fluff-3_2" cx="61.8205" cy="43.7424" rx="15.1795" ry="15.8855" fill="#AEAEAE" />
+            <ellipse id="cloud-fluff-2_2" cx="46.641" cy="23.8855" rx="15.1795" ry="15.8855" fill="#AEAEAE" />
+            <ellipse id="cloud-fluff-1_2" cx="22.9231" cy="38.7782" rx="19.9231" ry="20.8497" fill="#AEAEAE" />
+        </g>
+        <g id="snow-flakes-2">
+            <g id="snow-flake">
+                <line id="flake-line" x1="12" y1="67.5" x2="21" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_2" x1="16.5" y1="72" x2="16.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_3" x1="13.4157" y1="64.2232" x2="19.5843" y2="70.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_4" x1="13.2232" y1="70.5843" x2="19.7768" y2="64.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_2">
+                <line id="flake-line_5" x1="32" y1="67.5" x2="41" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_6" x1="36.5" y1="72" x2="36.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_7" x1="33.4157" y1="64.2232" x2="39.5843" y2="70.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_8" x1="33.2232" y1="70.5843" x2="39.7768" y2="64.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_3">
+                <line id="flake-line_9" x1="52" y1="67.5" x2="61" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_10" x1="56.5" y1="72" x2="56.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_11" x1="53.4157" y1="64.2232" x2="59.5843" y2="70.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_12" x1="53.2232" y1="70.5843" x2="59.7768" y2="64.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_4">
+                <line id="flake-line_13" x1="71" y1="67.5" x2="80" y2="67.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_14" x1="75.5" y1="72" x2="75.5" y2="63" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_15" x1="72.4157" y1="64.2232" x2="78.5843" y2="70.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_16" x1="72.2232" y1="70.5843" x2="78.7768" y2="64.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+        </g>
+        <g id="snow-flakes-1">
+            <g id="snow-flake_5">
+                <line id="flake-line_17" x1="21" y1="78.5" x2="30" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_18" x1="25.5" y1="83" x2="25.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_19" x1="22.4157" y1="75.2232" x2="28.5843" y2="81.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_20" x1="22.2232" y1="81.5843" x2="28.7768" y2="75.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_6">
+                <line id="flake-line_21" x1="41" y1="78.5" x2="50" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_22" x1="45.5" y1="83" x2="45.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_23" x1="42.4157" y1="75.2232" x2="48.5843" y2="81.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_24" x1="42.2232" y1="81.5843" x2="48.7768" y2="75.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_7">
+                <line id="flake-line_25" x1="61" y1="78.5" x2="70" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_26" x1="65.5" y1="83" x2="65.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_27" x1="62.4157" y1="75.2232" x2="68.5843" y2="81.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_28" x1="62.2232" y1="81.5843" x2="68.7768" y2="75.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+            <g id="snow-flake_8">
+                <line id="flake-line_29" x1="80" y1="78.5" x2="89" y2="78.5" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_30" x1="84.5" y1="83" x2="84.5" y2="74" stroke="#9DEDFF" stroke-linejoin="round" />
+                <line id="flake-line_31" x1="81.4157" y1="75.2232" x2="87.5843" y2="81.7768" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+                <line id="flake-line_32" x1="81.2232" y1="81.5843" x2="87.7768" y2="75.4157" stroke="#9DEDFF"
+                    stroke-linejoin="round" />
+            </g>
+        </g>
+    </g>
 </svg>

@@ -12,7 +12,11 @@
 </head>
 
 <body>
-    <img src="/cloudy.svg" alt="cloudy" width="300" height="300">
+    <form id="search-field">
+        <input type="search" value="" placeholder="Enter a city" name="search" id="search">
+        <input type="submit" value="Search" name="submit" id="submit">
+        <button type="button" value="reset" name="reset" id="reset">Reset</button>
+    </form>
     <img src="/weather_icons/cloudy.svg" alt="cloudy" width="300" height="300">
     <img src="/weather_icons/night-cloudy.svg" alt="cloudy" width="300" height="300">
     <img src="/weather_icons/night.svg" alt="cloudy" width="300" height="300">
@@ -21,10 +25,11 @@
     <img src="/weather_icons/sunny-cloudy.svg" alt="cloudy" width="300" height="300">
     <img src="/weather_icons/sunny.svg" alt="cloudy" width="300" height="300">
     <img src="/weather_icons/thunder.svg" alt="cloudy" width="300" height="300">
-    <form id="search-field">
-        <input type="search" value="" placeholder="Enter a city" name="search" id="search">
-        <input type="submit" value="Search" name="submit" id="submit">
-    </form>
+
+    <div id="weather-display">
+        <div id="summary"></div>
+        <div id="week-forecast"></div>
+    </div>
 
 </body>
 
