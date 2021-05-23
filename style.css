@@ -1,3 +1,137 @@
+/* General Styles */
 html {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body, main {
+    margin: 0;
+    width: 100%;
+}
+h1, h2, h3, input {
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+}
+
+h1.top-header {
+    color: white;
+    background-color:rgb(87, 87, 87);
+    margin: 0;
+    padding: 0.5em;
+}
+/* Search Field Styles */
+form#search-field {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0.5em 0.5em 0.5em 0.5em ;
+}
+form#search-field > * {
+    padding: 0.5em 0 0.5em 0;
+    margin: 0.25em 0 0.25em 0;
+    border: none;
+    width: 100%;
+}
+form input#search {
+    border-radius: 25px 0 0 25px;
+    flex: 1 1 75%;
+    background-color: rgb(245, 245, 245);
+}
+form input#submit {
+    border-radius: 0 25px 25px 0;
+    flex: 1 1 20%;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+form input#submit:hover {
+    background-color: rgb(255, 68, 68);
+}
+form button#reset {
+    border-radius: 25px;
+}
+
+
+/* Data Display Styles */
+article#weather-display {
+    margin: 1em 0.5em 1em 0.5em;
+}
+article#weather-display > * {
+    margin-bottom: 1em;
+}
+
+/* Current Weather */
+div#current {
+    background-color: rgb(199, 199, 199);
+    border-radius: 3vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+div#current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#icon-temp {
+    display: flex;
+    align-items: center;
+    font-size: calc(1rem + 2vw);
+}
+
+div#icon-temp img {
+    width: 100%;
+    height: auto;
+}
+
+div#current-details {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/* 5 Day Forecast */
+div#week-forecast {
+    background-color: rgb(199, 199, 199);
+    border-radius: 3vw;
+    display: flex;
+    flex-flow: column nowrap;
+}
+div.daily-forecast {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.daily-item {
+    flex: 1 1 0px;
+    padding: 0.5em;
+}
+div.daily-forecast img {
+    width: auto;
+}
+
+
+/* For Desktop */
+
+@media screen and (min-width: 768px) {
+    article {
+        display: flex;
+        justify-content: center;
+    }
+    article > *{ 
+        margin: 0 1em 0 1em;
+    }
+    div#current {
+        padding: 1em;
+    }
+    form#search-field {
+        width: 50%;
+        margin: auto;
+        margin-top: 1em;
+    }
 }

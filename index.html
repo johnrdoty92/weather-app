@@ -12,25 +12,66 @@
 </head>
 
 <body>
-    <form id="search-field">
-        <input type="search" value="" placeholder="Enter a city" name="search" id="search">
-        <input type="submit" value="Search" name="submit" id="submit">
-        <button type="button" value="reset" name="reset" id="reset">Reset</button>
-    </form>
-    <img src="/weather_icons/cloudy.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/night-cloudy.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/night.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/rain.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/snow.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/sunny-cloudy.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/sunny.svg" alt="cloudy" width="300" height="300">
-    <img src="/weather_icons/thunder.svg" alt="cloudy" width="300" height="300">
+    <main>
+        <!-- Search Field -->
+        <h1 class="top-header">Weather Forecast</h1>
 
-    <div id="weather-display">
-        <div id="summary"></div>
-        <div id="week-forecast"></div>
-    </div>
-
+        <form id="search-field">
+            <input type="search" value="" placeholder="Enter a city" name="search" id="search">
+            <input type="submit" value="Search" name="submit" id="submit">
+            <button type="button" value="reset" name="reset" id="reset" disabled>Reset</button>
+        </form>
+        <!-- Display Area -->
+        <article id="weather-display">
+            <div id="current">
+                <h2 id="city-name">Lexington</h2>
+                <div id="current-weather">
+                    <div id="icon-temp">
+                        <img id="current-icon" src="/weather_icons/cloudy.svg" width="200" height="200 alt=" cloudy">
+                        <h1 id="current-temp">71&#176;</h1>
+                    </div>
+                    <div id="current-details">
+                        <h3 id="current-description">Partly cloudy</h3>
+                        <h3 id="current-high-low">80&#176; / 75&#176;</h3>
+                        <h3 id="current-feels-like">Feels like 72&#176;</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Day, humidity, icon, temp -->
+            <div id="week-forecast">
+                <div class="daily-forecast">
+                    <h3 class="daily-item day">Monday</h2>
+                    <h3 class="daily-item dailty-humidity">Humidity: 68%</h3>
+                    <img class="daily-item" src="/weather_icons/night-cloudy.svg" width="75" height="75" alt="cloudy">
+                    <h3 class="daily-item daily-temp">85&#176; / 78&#176;</h3>
+                </div>
+                <div class="daily-forecast">
+                    <h3 class="daily-item day">Monday</h2>
+                    <h3 class="daily-item dailty-humidity">Humidity: 68%</h3>
+                    <img class="daily-item" src="/weather_icons/night-cloudy.svg" width="75" height="75" alt="cloudy">
+                    <h3 class="daily-item daily-temp">85&#176; / 78&#176;</h3>
+                </div>
+                <div class="daily-forecast">
+                    <h3 class="daily-item day">Monday</h2>
+                    <h3 class="daily-item dailty-humidity">Humidity: 68%</h3>
+                    <img class="daily-item" src="/weather_icons/night-cloudy.svg" width="75" height="75" alt="cloudy">
+                    <h3 class="daily-item daily-temp">85&#176; / 78&#176;</h3>
+                </div>
+                <div class="daily-forecast">
+                    <h3 class="daily-item day">Monday</h2>
+                    <h3 class="daily-item dailty-humidity">Humidity: 68%</h3>
+                    <img class="daily-item" src="/weather_icons/night-cloudy.svg" width="75" height="75" alt="cloudy">
+                    <h3 class="daily-item daily-temp">85&#176; / 78&#176;</h3>
+                </div>
+                <div class="daily-forecast">
+                    <h3 class="daily-item day">Monday</h2>
+                    <h3 class="daily-item dailty-humidity">Humidity: 68%</h3>
+                    <img class="daily-item" src="/weather_icons/night-cloudy.svg" width="75" height="75" alt="cloudy">
+                    <h3 class="daily-item daily-temp">85&#176; / 78&#176;</h3>
+                </div>
+            </div>
+        </article>
+    </main>
 </body>
 
 </html>
