@@ -10,11 +10,14 @@ body, main {
     margin: 0;
     width: 100%;
 }
-h1, h2, h3, input {
+h1, h2, h3, h4, input {
     text-align: center;
     margin: 0.5em 0 0.5em 0;
 }
-
+h1#errorText {
+    padding: 1em;
+    border-radius: 3vw;
+}
 h1.top-header {
     color: white;
     background-color:rgb(87, 87, 87);
@@ -53,18 +56,18 @@ form button#reset {
     border-radius: 25px;
 }
 
-
 /* Data Display Styles */
 article#weather-display {
     margin: 1em 0.5em 1em 0.5em;
 }
 article#weather-display > * {
     margin-bottom: 1em;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
 }
 
 /* Current Weather */
 div#current {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(255, 255, 255);
     border-radius: 3vw;
     display: flex;
     flex-flow: column;
