@@ -24,12 +24,13 @@ h1.top-header {
     margin: 0;
     padding: 0.5em;
 }
+
 /* Search Field Styles */
 form#search-field {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0.5em 0.5em 0.5em 0.5em ;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 form#search-field > * {
     padding: 0.5em 0 0.5em 0;
@@ -99,13 +100,15 @@ div#current-details {
 
 /* 5 Day Forecast */
 div#week-forecast {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(56, 56, 56);
+    color: white;
     border-radius: 3vw;
     display: flex;
     flex-flow: column nowrap;
 }
 div.daily-forecast {
     display: flex;
+    padding: 0.5em;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
