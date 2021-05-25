@@ -3,6 +3,7 @@ const search = document.querySelector('#search');
 const form = document.forms["search-field"];
 const reset = document.querySelector('#reset');
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const API_KEY: '424de56009858404726bd5953c8f94a4';
 let units = 'imperial';
 const display = document.querySelector('#weather-display');
 let current, iconTemp, currentDetails, currentWeather, weekForecast, dailyForecast;
@@ -159,8 +160,8 @@ let submitRequest = (event) => {
     event.preventDefault();
     clearDisplay();
 
-    let currentURL = `https://api.openweathermap.org/data/2.5/weather?q=${search.value}&appid=${KEYS.API_KEY}&units=${units}`
-    let fiveDayURL = `https://api.openweathermap.org/data/2.5/forecast?q=${search.value}&appid=${KEYS.API_KEY}&units=${units}`;
+    let currentURL = `https://api.openweathermap.org/data/2.5/weather?q=${search.value}&appid=${API_KEY}&units=${units}`
+    let fiveDayURL = `https://api.openweathermap.org/data/2.5/forecast?q=${search.value}&appid=${API_KEY}&units=${units}`;
     //Fetch Five Day forecast
     let fiveDay = fetch(fiveDayURL)
         .then(res => {
