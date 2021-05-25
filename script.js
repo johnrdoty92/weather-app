@@ -3,7 +3,7 @@ const search = document.querySelector('#search');
 const form = document.forms["search-field"];
 const reset = document.querySelector('#reset');
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const API_KEY: '424de56009858404726bd5953c8f94a4';
+const API_KEY = '424de56009858404726bd5953c8f94a4';
 let units = 'imperial';
 const display = document.querySelector('#weather-display');
 let current, iconTemp, currentDetails, currentWeather, weekForecast, dailyForecast;
