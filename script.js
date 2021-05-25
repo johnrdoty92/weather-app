@@ -7,14 +7,17 @@ let units = 'imperial';
 const display = document.querySelector('#weather-display');
 let current, iconTemp, currentDetails, currentWeather, weekForecast, dailyForecast;
 
+/*============DATA DISPLAY FUNCTIONS============*/
+
 //Clears display
 let clearDisplay = () => {
     while(display.firstChild) {
         display.removeChild(display.firstChild);
-    }    
+    };
 }
-//Build framework for displaying data
+//Create elements for displaying data
 let buildPage = () => {
+
     //Current Weather Data
     current = document.createElement('div');
     current.id = 'current';
@@ -29,6 +32,7 @@ let buildPage = () => {
     current.appendChild(currentWeather);
     currentWeather.appendChild(iconTemp);
     currentWeather.appendChild(currentDetails);
+
     //5 day forecast
     weekForecast = document.createElement('div');
     weekForecast.id = 'week-forecast';
@@ -45,9 +49,8 @@ let displayData = (data) => {
     fiveDayArray = [];
     for (let i=timeOffset; i < list.length; i+=8) {
         fiveDayArray.push(list[i]);
-        console.log(new Date(list[i].dt*1000))
     };
-
+    //Populate current weather data
     cityName = document.createElement('h2');
     cityName.id = 'city-name';
     cityName.innerHTML = search.value;
@@ -78,7 +81,7 @@ let displayData = (data) => {
     currentFeelsLike.innerHTML = `Feels like ${Math.round(main.feels_like)}&#176;`;
     currentDetails.appendChild(currentFeelsLike);
 
-    //5 day loop:
+    //Populate 5 day forecast:
     for (let i=0; i < fiveDayArray.length; i++) {
         dailyForecast = document.createElement('div');
         dailyForecast.className = 'daily-forecast';
@@ -100,15 +103,15 @@ let displayData = (data) => {
         dailyForecast.appendChild(dailyIcon);
 
         dailyTemp = document.createElement('h4');
-        dailyTemp.className = 'dailty-item daily-temp';
+        dailyTemp.className = 'daily-item daily-temp';
         dailyTemp.innerHTML = `${Math.round(fiveDayArray[i].main.temp_min)}&#176; / ${Math.round(fiveDayArray[i].main.temp_max)}&#176;`
         dailyForecast.appendChild(dailyTemp);
     }
+    fadeInElements();
     reset.disabled = false;
 };
 
-
-//Choose the proper icon
+//Get the right weather icon based on data
 let chooseIcon = (inputText, description) => {
     switch (inputText) {
         case 'Clear':
@@ -147,6 +150,8 @@ let displayError = () => {
     errorText.innerHTML = "Oops! We couldn't find the city you are looking for.";
     errorText.setAttribute("id", "errorText");
     display.appendChild(errorText);
+    fadeInElements();
+    reset.disabled = false;
 };
 
 //Fetch request function for event listener
@@ -189,9 +194,34 @@ let submitRequest = (event) => {
     })
 }
 
-//Event Listeners
+/*============STYLISTIC FUNCTIONS============*/
+
+//Fade in elements one by one
+let fadeInElements = () => {
+    let elements = document.querySelectorAll('article#weather-display > *');
+    elements.forEach( (v, i) => {
+        setTimeout( function() {
+            v.style.opacity = 1;
+        }, 500 * (i+0.5));
+    });
+    };
+
+//Fade out elements
+let fadeOutElements = () => {
+    let elements = document.querySelectorAll('article#weather-display > *');
+    elements.forEach( (v, i) => {
+        setTimeout( function() {
+            v.style.opacity = 0;
+        }, 500 * (i+0.5));
+    });
+}
+
+/*============EVENT LISTENERS============*/
 form.addEventListener('submit', submitRequest);
+
 reset.addEventListener('click', function() {
-    clearDisplay();
+    fadeOutElements();
+    setTimeout(clearDisplay, 2000);
+    search.value = '';    
     this.disabled = true;
 });
